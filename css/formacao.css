@@ -35,7 +35,7 @@
     font-size: 1.5rem;
     line-height: 1.33;
     max-width: 40ch;
-    margin-bottom: 60px;
+    margin-bottom: 70px;
     color: #a3a3a3;
    
  }
@@ -60,6 +60,7 @@
     border-radius: 4px;
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
     
  }
 
@@ -68,6 +69,7 @@
     text-transform: uppercase;
     color: #a3a3a3;
     margin-bottom: 10px;
+    
  }
 
  .faculdade-curso {
