@@ -6,3 +6,7 @@
 @import "./footer.css";
 @import "./projeto.css";
 
+html {
+scroll-behavior: smooth;
+}
+
