@@ -1,6 +1,7 @@
 .formacao {
     background: #141414;
     color: #ffffff;
+    
 }
 
 .formacao-container {
@@ -11,6 +12,7 @@
     grid-template-columns: 1fr 2fr;
     gap: 100px;
     position: relative;
+    
  }
 
  .formacao-container::after {
@@ -22,6 +24,7 @@
     position: absolute;
     bottom: -50px;
     left: 20px;
+
 
  }
 
