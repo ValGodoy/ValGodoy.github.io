@@ -21,27 +21,25 @@
   background: url("../img/Group 2.svg") no-repeat center;
   position: absolute;
   bottom: -50px;
-  left: 20px; /* Define a posição inicial como visível */
-  opacity: 1; /* Elemento está sempre visível */
+  left: 20px;
+  opacity: 1;
 }
 
 .formacao-container:hover::after {
-  animation: atravessarETerminar 2s linear forwards; /* Animação ocorre somente no hover */
+  animation: atravessarETerminar 2s linear forwards;
 }
 
 @keyframes atravessarETerminar {
   0% {
-    left: 20px; /* Posição inicial dentro da tela */
+    left: 20px;
     opacity: 1;
   }
   50% {
-    left: calc(
-      100% + 130px
-    ); /* Elemento percorre para fora da tela à direita */
+    left: calc(100% + 130px);
     opacity: 0;
   }
   100% {
-    left: 20px; /* Retorna à posição inicial */
+    left: 20px;
     opacity: 1;
   }
 }
